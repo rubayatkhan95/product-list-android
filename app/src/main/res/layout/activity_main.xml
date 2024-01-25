@@ -16,7 +16,7 @@
             android:id="@+id/listViewId"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:listSelector="@color/material_dynamic_tertiary80"></ListView>
+            android:listSelector="#22ff52"></ListView>
     </LinearLayout>
     <LinearLayout
         android:layout_weight="2"
