@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String [] productList = {"Apple", "Milk", "Powder", "Torch"};
+        String [] productList = {"Apple", "Milk"};
         listView = (ListView) findViewById(R.id.listViewId);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,productList);
         listView.setAdapter(adapter);

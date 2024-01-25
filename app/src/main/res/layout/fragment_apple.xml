@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".AppleFragment"
     android:padding="5dp"
-    android:background="#fff3"
+    android:background="#DBC3DF"
     >
 
     <LinearLayout
@@ -22,7 +22,7 @@
         <TextView
             android:textSize="27sp"
             android:text="Apple"
-            android:textFontWeight="600"
+            android:textAlignment="center"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
